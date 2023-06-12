@@ -1,4 +1,8 @@
 <?php
+//Write a program to calculate the overtime pay of 10 employees.
+// Overtime is paid at the rate of Rs. 12.00 per hour for every hour worked above 40 hours. Assume that employees do not work for a fractional part of an hour.
+
+
 $emp = 10;
 $rate = 12;
 $hour = 40;
@@ -17,7 +21,7 @@ if($ceil > $hour){
 
 //$overt = 48;
 //48 > 40  yes
-//$sbm = 48 - 40 =8
+//$sub = 48 - 40 =8
 //$mult = $sub * 12= 96
 //$result = 96 * 10 = 960 Rs
 
