@@ -1,10 +1,13 @@
 <?php
-      $num1=20;
-      $num2=15;
-      $num3=22;
+//Write a program to find the greatest of the three numbers entered through the keyboard using conditional operators.
+
+
+      $num1=-22;
+      $num2=19;
+      $num3=21;
     //cond-3
 
-      if($num1>$num2 && $num1>$num3){
+      if($num1>=$num2 && $num1>$num3){
         echo $num1;
       }
       elseif($num2 > $num1 && $num2 > $num3){
