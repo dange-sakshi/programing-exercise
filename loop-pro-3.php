@@ -10,7 +10,7 @@ for($i = 1; $i <= $emoji; $i++){
     } elseif ($i % 3 == 0) {
         echo "😀" . "\n";
     }else{
-        echo "$i Number is not divisible by 3 and 5" . "\n";
+        echo $i ;
     }
 }
 
