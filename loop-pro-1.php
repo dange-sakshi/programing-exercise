@@ -1,7 +1,7 @@
 <?php
 //Write a program that prints this emoji: “😀” the number of times as given by the user.
+$emoji = readline('Enter Number : ');
 
-$emoji = 10;
 for($i=1; $i<= $emoji; $i++){
         echo "😀";
    
