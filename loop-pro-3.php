@@ -4,13 +4,13 @@
 $emoji = readline('Enter Number : ');
 for($i = 1; $i <= $emoji; $i++){
     if ($i % 3 == 0 && $i % 5 == 0) {
-        echo "😕"."<br>";
+        echo "😕"."\n";
     }elseif($i % 5 == 0){
-        echo "😔" . "<br>";
+        echo "😔" . "\n";
     } elseif ($i % 3 == 0) {
-        echo "😀" . "<br>";
+        echo "😀" . "\n";
     }else{
-        echo "$i Number is not divisible by 3 and 5" . "<br>";
+        echo "$i Number is not divisible by 3 and 5" . "\n";
     }
 }
 
