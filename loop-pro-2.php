@@ -4,7 +4,7 @@ $emoji = readline('Enter Number : ');
 
 for($i=1; $i <= $emoji; $i++){
     if($i % 2 == 0){
-        echo "😔" . "<br>";
+        echo "😔" . "\n";
        
     }else{
         echo "😀";
