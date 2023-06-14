@@ -6,7 +6,7 @@
 $emp = 10;
 $rate = 12;
 $hour = 40;
-$overt =400;
+$overt = readline('Enter Number : ');
 
 $ceil = (ceil($overt));
 
