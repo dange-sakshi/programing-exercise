@@ -2,7 +2,7 @@
 //Write a program to determine whether a number is prime or not. A prime number is one, which is divisible only by 1 or itself.
 
 
-$number = 10;  
+$number = readline('Enter Number : ');  
 $count=0;  
 if($number  < 0){
     
