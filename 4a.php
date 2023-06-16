@@ -7,7 +7,7 @@ $hour = 40;
 // $overt = readline('enter number: ');
 
 for($i=1; $i<= 10; $i++){
-    $overt = readline('enter number: ') . "/n";
+    $overt = readline('enter number: ');
 if ($overt > $hour) {
     $sub = $overt - $hour;
     $mult = $sub * $rate;
