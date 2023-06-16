@@ -2,8 +2,8 @@
 //Two numbers are entered through the keyboard. Write a program to find the value of one number raised to the power of another.
 
 
-$num = 5.5;
-$power = 3;
+$num = readline('Enter Number : ');
+$power = readline('Enter Power: ');
 $result = 1;
 for($i=$power; $i>0; $i--){
     $result = $result * $num;
