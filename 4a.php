@@ -14,7 +14,7 @@ if ($overt > $hour) {
     
     echo $mult . PHP_EOL;
 } else {
-    echo "number is smaller than 40";
+    echo "number is smaller than 40" . PHP_EOL;
 }
     
 }
