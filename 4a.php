@@ -7,12 +7,12 @@ $hour = 40;
 // $overt = readline('enter number: ');
 
 for($i=1; $i<= 10; $i++){
-    $overt = readline('enter number: ') . PHP_EOL;
+    $overt = readline('enter number: ');
 if ($overt > $hour) {
     $sub = $overt - $hour;
     $mult = $sub * $rate;
     
-    echo $mult;
+    echo $mult . PHP_EOL;
 } else {
     echo "number is smaller than 40";
 }
