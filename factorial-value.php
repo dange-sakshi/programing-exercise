@@ -2,7 +2,7 @@
 //Write a program to find the factorial value of any number entered through the keyboard.
 
 
-$num =4.5;
+$num = readline('enter number: ');
 $fact =1;
 
 for($i=$num; $i>=1; $i--){
