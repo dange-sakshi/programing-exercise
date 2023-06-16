@@ -17,7 +17,7 @@ for ($i = 1; $i <= 500; $i++) {
     }
     if ($sum == $i
     ) {
-        echo "<p>$i is armstrong number</p>";
+        echo "$i is armstrong number" . PHP_EOL ;
     }
 }
 ?>
