@@ -3,12 +3,13 @@
 
 $large = 0;
 for($i = 1; $i<= 5; $i++){
-    if($i > $large){
-        $large = $i;
+    $num = readline('Enter number: ');
+    if($num > $large){
+        $large = $num;
     }
     
 }
-echo $large;
+echo "$large is a  largest number";
 
 
 
