@@ -1,4 +1,5 @@
 <?php
+//Given a positive integer with an arbitrary number of digits, write a program to determine whether it is an Armstrong number. 
 $num = readline('Enter number: ');
 $qu = $num;
 $count = strlen(strval($qu));
