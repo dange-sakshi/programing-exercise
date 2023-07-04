@@ -3,11 +3,11 @@
 //- number of customers
 //- interest rate for a loan
 //Then for each customer up to the number of customers entered above, take as input the principal amount and duration in years and print total simple interest to be paid on the loan.
-$cust = 10;
+$cust = readline('Enter no of cust: ');
 for ($i = 0; $i < $cust; $i++) {
     $amount = readline('Enter amount: ');
     $rate = readline('Enter rate: ');
-    $year = readline('Enter year: ');
+    $year = readline('Enter duration in years: ');
 
 
     $totalInt = $amount * $rate * $year /100;
