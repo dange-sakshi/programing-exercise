@@ -19,7 +19,7 @@ for ($i = 1; $i <= $num; $i++) {
     while ( $qu1 != 0) {
          $remainder = (int)$qu1 % 10;
          $mult = 1;
-            for($k=1; $k <= $count; $k++){
+            for($k=1; $k <= $count1; $k++){
                 $mult *= $remainder; 
             }
          
