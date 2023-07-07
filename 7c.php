@@ -28,7 +28,7 @@ for ($i = 1; $i <= $num; $i++) {
         
     }
     if ($sum == $i) {
-        echo "$i is armstrong number" . PHP_EOL;
+        // echo "$i is armstrong number" . PHP_EOL;
         $total += $i;
     }
 }
