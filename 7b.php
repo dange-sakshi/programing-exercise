@@ -18,7 +18,7 @@ while ($num != 0) {
     $rem = (int)$num % 10;
 
     $mult = 1;
-    for ($i = 1; $i <= $count; $i++) {
+    for ($i = 1; $i <= $count1; $i++) {
         $mult *= $rem;
     }
 
