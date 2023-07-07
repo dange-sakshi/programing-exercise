@@ -7,16 +7,24 @@ $total = 0;
 for ($i = 1; $i <= $num; $i++) {
     $sum = 0;
     $qu = $i;
-    $count = strlen(strval($qu));
-    while ( $qu != 0) {
-         $remainder = (int)$qu % 10;
+    $qu1 = $i;
+    $count =  0;
+    while ((int) $qu > 0) {
+        $r = (int)$qu % 10;
+        $count++;
+        $qu = (int)$qu / 10;
+    }
+    $count1 = $count;
+    // $count = strlen(strval($qu));
+    while ( $qu1 != 0) {
+         $remainder = (int)$qu1 % 10;
          $mult = 1;
             for($k=1; $k <= $count; $k++){
                 $mult *= $remainder; 
             }
          
                 $sum += $mult;
-                $qu = $qu / 10;
+                $qu1 = $qu1 / 10;
         
     }
     if ($sum == $i) {
