@@ -3,7 +3,7 @@
 
 
 $num = readline('Enter number: ');
-$total = 0;  
+$total = 0;
 for ($i = 1; $i <= $num; $i++) {
     $sum = 0;
     $qu = $i;
@@ -16,16 +16,15 @@ for ($i = 1; $i <= $num; $i++) {
     }
     $count1 = $count;
     // $count = strlen(strval($qu));
-    while ( $qu1 != 0) {
-         $remainder = (int)$qu1 % 10;
-         $mult = 1;
-            for($k=1; $k <= $count1; $k++){
-                $mult *= $remainder; 
-            }
-         
-                $sum += $mult;
-                $qu1 = $qu1 / 10;
-        
+    while ($qu1 != 0) {
+        $remainder = (int)$qu1 % 10;
+        $mult = 1;
+        for ($k = 1; $k <= $count1; $k++) {
+            $mult *= $remainder;
+        }
+
+        $sum += $mult;
+        $qu1 = $qu1 / 10;
     }
     if ($sum == $i) {
         // echo "$i is armstrong number" . PHP_EOL;
@@ -34,8 +33,4 @@ for ($i = 1; $i <= $num; $i++) {
 }
 
 echo $total;
-
-
-
-
 ?>
