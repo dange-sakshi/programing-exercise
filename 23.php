@@ -6,7 +6,6 @@ $num = readline('Enter five digit number: ');
 
 $n = $num;
 $sum = 0;
-$reverce = 0;
 for ($i = 5; $i >= 1; $i--) {
   $reverce = $num % 10;
   $set = $reverce + 1;
