@@ -11,10 +11,11 @@
 $a = readline('Enter persentage sub A: ');
 $b = readline('Enter persentage sub B: ');
 
-if ((($a >= 55 && $b >= 45)) && ($a > 55 && $b >= 55 )|| $a >= 45) {
+if (($a >= 55 && $b >= 45) || ($a < 55 && $b >= 55 && $a >= 45)) {
     echo "The student has passed";
 } elseif ($b < 45 && $a >= 65) {
     echo "The student is allowed to reappear in B";
 } else {
     echo "The student has failed";
 }
+?>
