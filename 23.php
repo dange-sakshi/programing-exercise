@@ -3,11 +3,10 @@
 
 
 $num = readline('Enter five digit number: ');
-$sum = 0;
 $get = 0;
 for ($i = 0; $i < 5; $i++) {
-  $reverce = $num % 10;
-  $set = $reverce + 1;
+  $reverse = $num % 10;
+  $set = $reverse + 1;
   if ($set == 10) {
     $set = 0;
   }
