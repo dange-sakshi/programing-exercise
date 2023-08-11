@@ -3,27 +3,18 @@
 
 
 $num = readline('Enter five digit number: ');
-
-$n = $num;
 $sum = 0;
-for ($i = 5; $i >= 1; $i--) {
+$get = 0;
+for ($i = 0; $i < 5; $i++) {
   $reverce = $num % 10;
   $set = $reverce + 1;
   if ($set == 10) {
     $set = 0;
   }
-  if ($i == 5) {
-    $sum +=  $set;
-  } elseif ($i == 4) {
-    $sum +=  $set * 10;
-  } elseif ($i == 3) {
-    $sum +=  $set * 100;
-  } elseif ($i == 2) {
-    $sum +=  $set * 1000;
-  } elseif ($i == 1) {
-    $sum +=  $set * 10000;
-  }
+  $sum = pow(10, $i);
+  $sw = $sum * $set;
+  $get = $get + $sw;
   $num = $num / 10;
 }
-echo $sum;
+echo $get;
 ?>
