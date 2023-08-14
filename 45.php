@@ -10,12 +10,11 @@ $ascii = ord($chr1);
 if ($ascii >= 97 && $ascii <= 122) {
     echo "$chr1 is lower case alphabet" . PHP_EOL;
 } else {
-    echo "$chr1 is not lower case alphabet".PHP_EOL;
+    echo "$chr1 is not lower case alphabet" . PHP_EOL;
 }
-$chr2 = readline('Enter charecter: ');
-$ascii1 = ord($chr2);
-if ($ascii1 >= 0 && $ascii1 <= 47 || $ascii1 >= 58 && $ascii1 <= 64 || $ascii1 >= 91 && $ascii1 <= 96 || $ascii1 >= 123 && $ascii1 <= 255) {
-    echo "$chr2 is special symbol";
+if (($ascii >= 0 && $ascii <= 47) || ($ascii >= 58 && $ascii <= 64) || ($ascii >= 91 && $ascii <= 96) || ($ascii >= 123 && $ascii <= 255)) {
+    echo "$chr1 is special symbol" . PHP_EOL;
 } else {
-    echo "$chr2 is not special symbol";
+    echo "$chr1 is not special symbol" . PHP_EOL;
 }
+?>
