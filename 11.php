@@ -3,16 +3,9 @@
 
 
 $salary = readline('Enter Numbrs: ');
-$da = $salary * 40 / 100;
-$hra = $salary * 20 / 100;
+$dearness_allowance = $salary * 40 / 100;
+$house_rent_allowance = $salary * 20 / 100;
 
-$grosss = $salary + $da + $hra;
+$gross_salary = $salary + $dearness_allowance + $house_rent_allowance;
 
-echo $grosss;
-
-//$salary = 40000;
-//$da = 40000 * 40 / 100; = 16000
-//$hra = 20000 * 20 / 100; = 8000
-//$grosss = 40000 + 16000 +8000;
-//$grosss = 64000;
-?>
+echo $gross_salary . PHP_EOL;
