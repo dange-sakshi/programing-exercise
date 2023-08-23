@@ -11,9 +11,9 @@ for($i = 0; $i < 5; $i++){
         echo "$mark is greater than the 100";
     }
 }
-$per = ($aggr/500) * 100;
-echo $aggr . PHP_EOL;
-echo "$per% " . PHP_EOL;
+$percentage = ($aggr/500) * 100;
+echo "$aggr Aggregrate marks" . PHP_EOL;
+echo "$percentage% Percentage " . PHP_EOL;
 
 
 //$aggr = 0;
