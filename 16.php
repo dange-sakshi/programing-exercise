@@ -10,3 +10,4 @@ $c = $sum - $c;
 
 echo "The value of c $c" . PHP_EOL;
 echo "The value of d $d" . PHP_EOL;
+?>
